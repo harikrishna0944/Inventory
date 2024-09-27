@@ -1,0 +1,33 @@
+# Django Framework
+Django==4.2
+
+# Django Rest Framework for API development
+djangorestframework==3.14.0
+
+# JWT Authentication
+djangorestframework-simplejwt==5.2.2
+
+# PostgreSQL Database
+psycopg2==2.9.6
+
+# Caching (Redis)
+redis==5.0.0
+django-redis==5.2.0
+
+# Optional caching: If Redis is not available, use file or memory-based cache
+# Uncomment one of these options based on your choice:
+# Local memory caching (for development)
+# django-locmem-cache
+
+# File-based caching
+# Django includes this by default, no additional package required
+
+# Database Migrations
+sqlparse==0.4.4
+
+# For timezone and datetime operations
+pytz==2023.3
+
+# For testing and debugging
+pytest==7.4.2
+pytest-django==4.5.2
